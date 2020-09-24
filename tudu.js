@@ -1,0 +1,12 @@
+Vue.component("tudu",{
+    template:
+    `<div>
+    <h1>待办事项列表</h1>
+    <tudu-add/>
+    <tudu-list/>
+   </div>
+    `,
+    components:{
+        tuduAdd,tuduList
+    }
+})
